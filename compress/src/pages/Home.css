@@ -5,7 +5,7 @@
 
 #products-container h2 {
   color: #ccc;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
@@ -21,7 +21,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #090909;
 }
@@ -56,7 +56,7 @@
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #ccc;
+  color: #ddd;
 }
 
 #invoice-form input {
@@ -64,7 +64,7 @@
   padding: 8px;
   margin-top: 5px;
   margin-bottom: 15px;
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -80,43 +80,4 @@
 
 #invoice-form button:hover {
   background-color: #218838;
-}
-
-
-#payment-form {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #090909;
-  border: 1px solid #333;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-#payment-form h2 {
-  color: #ccc;
-  margin-bottom: 15px;
-}
-
-#payment-form label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
-  color: #ccc;
-}
-
-#payment-form input[type="radio"] {
-  margin-right: 10px;
-}
-
-#payment-form button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-#payment-form button:hover {
-  background-color: #0056b3;
 }

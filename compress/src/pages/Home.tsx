@@ -2,7 +2,6 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import './Home.css';
 import Products from '../components/Products';
 import InvoiceForm from '../components/Invoice';
-import Payment from '../components/Payment';
 
 const Home: React.FC = () => {
   return (
@@ -20,7 +19,6 @@ const Home: React.FC = () => {
         </IonHeader>
         <Products />
         <InvoiceForm />
-        <Payment />
       </IonContent>
     </IonPage>
   );
